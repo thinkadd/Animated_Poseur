@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<window_settings>
+    <app_title>Animated Poseur</app_title>
+    <window_dimensions>
+        <window_width>1280</window_width>
+        <window_height>720</window_height>
+    </window_dimensions>
+    <window_resizable>false</window_resizable>
+    <window_centered>false</window_centered>
+</window_settings>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type>
+     <width>128</width>
+     <height>128</height>
+     <images_list>
+          <image_file file_name="bbb_man_BOUNCING_2.png" id="17"/>
+          <image_file file_name="bbb_man_BOUNCING_1.png" id="16"/>
+          <image_file file_name="bbb_man_BOUNCING_4.png" id="19"/>
+          <image_file file_name="bbb_man_BOUNCING_3.png" id="18"/>
+          <image_file file_name="bbb_man_BOUNCING_5.png" id="20"/>
+          <image_file file_name="bbb_man_IDLE_1.png" id="11"/>
+          <image_file file_name="bbb_man_IDLE_2.png" id="12"/>
+          <image_file file_name="bbb_man_IDLE_3.png" id="13"/>
+          <image_file file_name="bbb_man_IDLE_4.png" id="14"/>
+          <image_file file_name="bbb_man_IDLE_5.png" id="15"/>
+     </images_list>
+     <animations_list>
+          <animation_state>
+               <state>JUMPING</state>
+               <animation_sequence>
+                    <pose duration="5" image_id="20"/>
+                    <pose duration="5" image_id="17"/>
+               </animation_sequence>
+          </animation_state>
+          <animation_state>
+               <state>IDLE</state>
+               <animation_sequence>
+                    <pose duration="6" image_id="13"/>
+                    <pose duration="1" image_id="12"/>
+                    <pose duration="3" image_id="11"/>
+                    <pose duration="1" image_id="12"/>
+                    <pose duration="2" image_id="13"/>
+                    <pose duration="1" image_id="14"/>
+                    <pose duration="3" image_id="15"/>
+                    <pose duration="1" image_id="14"/>
+               </animation_sequence>
+          </animation_state>
+          <animation_state>
+               <state>BOUNCING</state>
+               <animation_sequence>
+                    <pose duration="1" image_id="18"/>
+                    <pose duration="2" image_id="17"/>
+                    <pose duration="3" image_id="16"/>
+                    <pose duration="3" image_id="17"/>
+                    <pose duration="2" image_id="18"/>
+                    <pose duration="1" image_id="19"/>
+                    <pose duration="2" image_id="20"/>
+                    <pose duration="1" image_id="19"/>
+               </animation_sequence>
+          </animation_state>
+     </animations_list>
+</sprite_type>
